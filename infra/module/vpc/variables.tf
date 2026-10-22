@@ -9,16 +9,16 @@ variable "vpc_cidr" {
 }
 
 variable "az_1" {
-  type = string
+  type    = string
   default = "eu-west-2a"
 }
 
 variable "az_2" {
-  type = string
+  type    = string
   default = "eu-west-2b"
 }
 
 variable "all_traffic" {
-  type = string
+  type    = string
   default = "0.0.0.0/0"
 }

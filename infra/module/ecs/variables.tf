@@ -41,6 +41,6 @@ variable "memory" {
 }
 
 variable "desired_count" {
-  type = number
+  type    = number
   default = 2
 }
